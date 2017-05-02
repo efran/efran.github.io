@@ -1,4 +1,10 @@
-Landed by HTML5 UP
+Personal website project of James Gan. Template credits below.
+
+Aiming to become more familiar with CSS, HTML5, and to create a stronger personal brand.
+
+Images used are under CCA, either CC0 (Generally from Unsplash) or CC2/CC3 and attributed where applicable in the footer of the page where used.
+
+<!--Landed by HTML5 UP
 html5up.net | @ajlkn
 Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
 
@@ -34,4 +40,4 @@ Credits:
 		html5shiv.js (@afarkas @jdalton @jon_neal @rem)
 		CSS3 Pie (css3pie.com)
 		Respond.js (j.mp/respondjs)
-		Skel (skel.io)
+		Skel (skel.io)-->
