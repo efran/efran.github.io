@@ -1632,12 +1632,23 @@
 	}
 
 	h5 {
-		font-size: 0.9em;
-		line-height: 1.5em;
+		color: #ffffff;
+		font-family: "Source Sans Pro", Helvetica, sans-serif;
+		font-weight: 300;
+		line-height: 2;
+		text-transform: uppercase;
+		font-size: 1.65em;
+		letter-spacing: 0.22em;
+		margin: 0 0 0.525em 0;
 	}
 
 	h6 {
-		font-size: 1.85em;
+		color: #000000;
+		font-family: "Source Sans Pro", Helvetica, sans-serif;
+		font-weight: 300;
+		line-height: 2;
+		text-transform: uppercase;
+		font-size: 3.85em;
 		letter-spacing: 0.22em;
 		margin: 0 0 0.525em 0;
 	}
@@ -2967,6 +2978,8 @@
 			-webkit-transition: -webkit-transform 1s ease, opacity 1s ease;
 			-ms-transition: -ms-transform 1s ease, opacity 1s ease;
 			transition: transform 1s ease, opacity 1s ease;
+			/*change spotlight color*/
+			/*set to 180, 180, 180, 0.75 for gray, need to do mobile ones too then though*/
 			background: rgba(23, 24, 32, 0.95);
 			border-style: solid;
 			opacity: 1;
@@ -3280,6 +3293,7 @@
 		}
 
 		#header nav {
+			color: #000000;
 			position: absolute;
 			right: 1em;
 			top: 0;
@@ -3355,10 +3369,15 @@
 		}
 
 		#banner:after {
-			background-image: -moz-linear-gradient(top, rgba(23, 24, 32, 0.95), rgba(23, 24, 32, 0.95)), url("images/overlay.png");;
-			background-image: -webkit-linear-gradient(top, rgba(23, 24, 32, 0.95), rgba(23, 24, 32, 0.95)), url("images/overlay.png");;
-			background-image: -ms-linear-gradient(top, rgba(23, 24, 32, 0.95), rgba(23, 24, 32, 0.95)), url("images/overlay.png");;
-			background-image: linear-gradient(top, rgba(23, 24, 32, 0.95), rgba(23, 24, 32, 0.95)), url("images/overlay.png");;
+			/*background-color: #0f0f0f;*/
+			background-image: -moz-linear-gradient(60deg, rgba(255, 165, 150, 0.4) 5%, rgba(0, 228, 255, 0.25));
+			background-image: -webkit-linear-gradient(60deg, rgba(255, 165, 150, 0.4) 5%, rgba(0, 228, 255, 0.25));
+			background-image: -ms-linear-gradient(60deg, rgba(255, 165, 150, 0.4) 5%, rgba(0, 228, 255, 0.25));
+			background-image: linear-gradient(60deg, rgba(255, 165, 150, 0.4) 5%, rgba(0, 228, 255, 0.25));
+			/*background-image: -moz-linear-gradient(top, rgba(255, 255, 255, 0.95), rgba(23, 24, 32, 0.95)), url("images/overlay.png");;
+			background-image: -webkit-linear-gradient(top, rgba(255, 255, 32, 0.95), rgba(23, 24, 32, 0.95)), url("images/overlay.png");;
+			background-image: -ms-linear-gradient(top, rgba(255, 255, 255, 0.95), rgba(23, 24, 32, 0.95)), url("images/overlay.png");;
+			background-image: linear-gradient(top, rgba(255, 255, 255, 0.95), rgba(23, 24, 32, 0.95)), url("images/overlay.png");;*/
 			content: '';
 			display: block;
 			height: 100%;
