@@ -751,12 +751,13 @@
 				background: #c8cccf;
 			}
 
-		@media screen and (max-width: 960px) {
+		@media screen and (max-width: 480px) {
 
 			#main {
 				min-width: 0;
 				max-width: 50%;
 				padding: 4em 2em 2.5em 2em ;
+				font-size: 50%
 			}
 
 				#main .avatar:before {
