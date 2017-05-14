@@ -751,7 +751,7 @@
 				background: #c8cccf;
 			}
 
-		@media screen and (max-width: 480px) {
+		@media screen and (max-width: 960px) {
 
 			#main {
 				min-width: 0;
