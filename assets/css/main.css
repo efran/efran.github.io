@@ -61,12 +61,7 @@
 
 	@media screen and (max-width: 480px) {
 
-		html {
-			min-width: 320px;
-			height: 100%;
-		}
-		
-		body {
+		html, body {
 			min-width: 320px;
 		}
 
