@@ -118,13 +118,13 @@
 
 							$window
 								.on('scroll._parallax', function() {
-									window.requestAnimationFrame(
-									var pos = parseInt($window.scrollTop()) - parseInt($this.position().top);
+									window.requestAnimationFrame( function() {
+										var pos = parseInt($window.scrollTop()) - parseInt($this.position().top);
 
-									pos = pos.toFixed(1);
+										pos = pos.toFixed(1);
 
-									$this.css('background-position', 'center ' + (pos * -0.15) + 'px');
-									)
+										$this.css('background-position', 'center ' + (pos * -0.15) + 'px');
+									})
 								});
 
 						};
