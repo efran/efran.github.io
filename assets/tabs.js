@@ -21,7 +21,7 @@ function openCity(evt, cityName) {
 
 // Get the element with id="defaultOpen" and click on it
 var tabChooser = 0;
-var tabChooser2 = 1;
+var tabChooser2 = 0;
 document.getElementById("defaultOpen"+tabChooser).click();
 document.getElementById("defaultOpenProject"+tabChooser2).click();
 
