@@ -45,20 +45,20 @@
 
   <!-- analytics -->
   <script type="text/javascript">
-  window.heap = window.heap || [], heap.load = function(e, t) {
-    window.heap.appid = e, window.heap.config = t = t || {};
-    var n = t.forceSSL || "https:" === document.location.protocol,
-    a = document.createElement("script");
-    a.type = "text/javascript", a.async = !0, a.src = (n ? "https:" : "http:") + "//cdn.heapanalytics.com/js/heap-" + e + ".js";
-    var o = document.getElementsByTagName("script")[0];
-    o.parentNode.insertBefore(a, o);
-    for (var r = function(e) {
-      return function() {
-        heap.push([e].concat(Array.prototype.slice.call(arguments, 0)))
-      }
-    }, p = ["clearEventProperties", "identify", "setEventProperties", "track", "unsetEventProperty"], c = 0; c < p.length; c++) heap[p[c]] = r(p[c])
-  };
-  heap.load("757825187");
+    window.heap = window.heap || [], heap.load = function(e, t) {
+      window.heap.appid = e, window.heap.config = t = t || {};
+      var n = t.forceSSL || "https:" === document.location.protocol,
+      a = document.createElement("script");
+      a.type = "text/javascript", a.async = !0, a.src = (n ? "https:" : "http:") + "//cdn.heapanalytics.com/js/heap-" + e + ".js";
+      var o = document.getElementsByTagName("script")[0];
+      o.parentNode.insertBefore(a, o);
+      for (var r = function(e) {
+        return function() {
+          heap.push([e].concat(Array.prototype.slice.call(arguments, 0)))
+        }
+      }, p = ["clearEventProperties", "identify", "setEventProperties", "track", "unsetEventProperty"], c = 0; c < p.length; c++) heap[p[c]] = r(p[c])
+    };
+    heap.load("757825187");
   </script>
 
   <meta http-equiv="X-Clacks-Overhead" content="GNU Terry Pratchett" />
@@ -74,54 +74,54 @@
         <h1 id="name">Emilia Gan</h1>
         <span id="headline">Ph.D. Student</br> Paul G. Allen School of</br> Computer Science & Engineering</br>
          (University of Washington)</br>
-          M.S. Computer Science</br>
-          University of Washington '20 </br>
-          M.S. Pathobiology, University of Washington '16
-          </br>
-          M.D. University of Massachusetts</br>
-          Medical School
-          </br>
-          B.S. Materials Science & Engineering, MIT </br></br>
-        </span>
-        <img id="profile" class="ui centered image" src="images/efg_profile.jpg" alt="profile" />
+         M.S. Computer Science</br>
+         University of Washington '20 </br>
+         M.S. Pathobiology, University of Washington '16
+       </br>
+       M.D. University of Massachusetts</br>
+       Medical School
+     </br>
+     B.S. Materials Science & Engineering, MIT </br></br>
+   </span>
+   <img id="profile" class="ui centered image" src="images/efg_profile.jpg" alt="profile" />
 
-        <div class="ui divider"></div>
+   <div class="ui divider"></div>
 
-        <a href="./EGan_Resume_Summer_2020.pdf" class="ui labeled icon large button">
-          <i class="ui file icon button-icon"></i>&nbsp;&nbsp;
-          <div class="button-text">Resume</div>
-        </a>
+   <a href="./EGan_Resume_Summer_2020.pdf" class="ui labeled icon large button">
+    <i class="ui file icon button-icon"></i>&nbsp;&nbsp;
+    <div class="button-text">Resume</div>
+  </a>
         <!--<a href="./calendar.html" class="ui labeled icon large button">
         <i class="ui calendar icon button-icon"></i>&nbsp;&nbsp;
         <div class="button-text">Calendar</div>
-        </a>-->
-        <a href="https://www.linkedin.com/in/emilia-gan" class="ui labeled icon large button">
-          <i class="ui linkedin icon button-icon"></i>&nbsp;&nbsp;
-          <div class="button-text">LinkedIn</div>
-        </a>
-        <a href="https://github.com/efran" class="ui labeled icon large button">
-          <i class="ui github icon button-icon"></i>&nbsp;&nbsp;
-          <div class="button-text">Github</div>
-        </a>
-        
+      </a>-->
+      <a href="https://www.linkedin.com/in/emilia-gan" class="ui labeled icon large button">
+        <i class="ui linkedin icon button-icon"></i>&nbsp;&nbsp;
+        <div class="button-text">LinkedIn</div>
+      </a>
+      <a href="https://github.com/efran" class="ui labeled icon large button">
+        <i class="ui github icon button-icon"></i>&nbsp;&nbsp;
+        <div class="button-text">Github</div>
+      </a>
+
         <!--         <a href="./landed/" class="ui labeled icon large button">
         <i class="ui play icon button-icon"></i>&nbsp;&nbsp;
         <div class="button-text">Read More</div>
-        </a> -->
+      </a> -->
 
-        <div class="ui divider"></div>
+      <div class="ui divider"></div>
 
-        <button class="hobbylinks ui icon large button" onclick="openHobbies(event, 'hobbies')">Hobbies</button>
-        <div id="hobbies" class="hobbycontent" style="display: none;">
+      <button class="hobbylinks ui icon large button" onclick="openHobbies(event, 'hobbies')">Hobbies</button>
+      <div id="hobbies" class="hobbycontent" style="display: none;">
         <!-- hobby items begin -->
 
-          <!-- split -->
+        <!-- split -->
 
-          <div class="ui message even project">
-            <h3 class="hobby-title">Traveling</h3>
-            <span class="hobby-meta">
-              <!--Meta here-->
-            </span>
+        <div class="ui message even project">
+          <h3 class="hobby-title">Traveling</h3>
+          <span class="hobby-meta">
+            <!--Meta here-->
+          </span>
 
             <!-- <br>
 
@@ -226,421 +226,327 @@
 
           <!-- split -->
 
-        <!-- hobby items end -->
+          <!-- hobby items end -->
 
-      </br>
-      The time is:</br></br>
-      <div id="binary-clock" class="app"></div>
+        </br>
+        The time is:</br></br>
+        <div id="binary-clock" class="app"></div>
 
       </div>
+    </div>
   </div>
-</div>
 
-<!-- project segment -->
-<div class="ui ten wide column">
-  <div class="ui center aligned segment">
-    <button class="tablinks ui icon large button" onclick="openCity(event, 'Work')" id="defaultOpen2">Work</button>
-    <button class="tablinks ui icon large button" onclick="openCity(event, 'Education')" id="defaultOpen1">Education</button>
-    <button class="tablinks ui icon large button" onclick="openCity(event, 'Personal Projects')" id="defaultOpen0">Projects</button>
+  <!-- project segment -->
+  <div class="ui ten wide column">
+    <div class="ui center aligned segment">
+      <button class="tablinks ui icon large button" onclick="openCity(event, 'Work')" id="defaultOpen2">Work</button>
+      <button class="tablinks ui icon large button" onclick="openCity(event, 'Education')" id="defaultOpen1">Education</button>
+      <button class="tablinks ui icon large button" onclick="openCity(event, 'Personal Projects')" id="defaultOpen0">Projects</button>
 
-    <!-- Projects Tab content -->
-    <div id="Personal Projects" class="tabcontent">
-    <h2>Projects</h2>
-    <button class="projectlinks ui icon large button" onclick="openProjects(event, 'P1')" id="defaultOpenProject0">Teaching</button>
-    <button class="projectlinks ui icon large button" onclick="openProjects(event, 'P2')" id="defaultOpenProject1">Art Projects</button>
-    <button class="projectlinks ui icon large button" onclick="openProjects(event, 'P3')" id="defaultOpenProject2">Culinary Adventures</button>
-    <button class="projectlinks ui icon large button" onclick="openProjects(event, 'P4')" id="defaultOpenProject3">Travel</button>
+      <!-- Projects Tab content -->
+      <div id="Personal Projects" class="tabcontent">
+        <h2>Projects</h2>
+        <button class="projectlinks ui icon large button" onclick="openProjects(event, 'P1')" id="defaultOpenProject0">Teaching</button>
+        <button class="projectlinks ui icon large button" onclick="openProjects(event, 'P2')" id="defaultOpenProject1">Art Projects</button>
+        <button class="projectlinks ui icon large button" onclick="openProjects(event, 'P3')" id="defaultOpenProject2">Culinary Adventures</button>
+        <button class="projectlinks ui icon large button" onclick="openProjects(event, 'P4')" id="defaultOpenProject3">Travel</button>
 
-    <!-- P1 Teaching Projects content -->
-      <div id="P1" class="projectcontent">
-        <div class="ui left aligned container">
-          <div class="ui message odd project">
-            <h3 class="project-title">Inktober 2019</h3>
-            <span class="project-meta">
-              <em><a href="https://inktober.com/"><img src="/images/ink.png" height="95" width="auto" align="top"></img></a></em>&nbsp;&nbsp;
-              <div class="ui label">July 2020</div>
-            </span>
+        <!-- P1 Teaching Projects content -->
+        <div id="P1" class="projectcontent">
+          <div class="ui left aligned container">
+            <div class="ui message odd project">
+              <h3 class="project-title">Inktober 2019</h3>
+              <span class="project-meta">
+                <em><a href="https://inktober.com/"><img src="/images/ink.png" height="95" width="auto" align="top"></img></a></em>&nbsp;&nbsp;
+                <div class="ui label">July 2020</div>
+              </span>
 
-            <br>
+              <br>
 
-            <div class="description">
-              Inktober is an annual event that takes place every October. For 31 days, participants commit to creating one drawing per day, based on a set of prompts. My mom, daughter, and I used these prompts to guide our own drawing adventure during the summer of 2020, when we were all in isolation apart from each other.
+              <div class="description">
+                Inktober is an annual event that takes place every October. For 31 days, participants commit to creating one drawing per day, based on a set of prompts. My mom, daughter, and I used these prompts to guide our own drawing adventure during the summer of 2020, when we were all in isolation apart from each other.
+              </div>
+
+              <div class="ui fitted divider"></div>
+
+
+            </div>
+          </div>
+        </div>
+
+        <!-- split -->
+        <!-- end P1 Teaching Projects Tab content -->
+
+        <!-- P2 Research Projects content -->
+        <div id="P2" class="projectcontent">
+          <div class="ui left aligned container">
+            <div class="ui message odd project">
+              <h3 class="project-title">Inktober 2019</h3>
+              <span class="project-meta">
+                <em><a href="https://inktober.com/"><img src="/images/ink.png" height="95" width="auto" align="top"></img></a></em>&nbsp;&nbsp;
+                <div class="ui label">July 2020</div>
+              </span>
+
+              <br>
+
+              <div class="description">
+                Inktober is an annual event that takes place every October. For 31 days, participants commit to creating one drawing per day, based on a set of prompts. My mom, daughter, and I used these prompts to guide our own drawing adventure during the summer of 2020, when we were all in isolation apart from each other.
+              </div>
+
+              <div class="ui fitted divider"></div>
+
+
             </div>
 
-            <div class="ui fitted divider"></div>
-
-         
           </div>
-          </div>
-          </div>
+        </div>
+        <!-- end P2 Research Projects Tab content -->
 
-          <!-- split -->
-      <!-- end P1 Teaching Projects Tab content -->
+        <!-- start P3 Culinary Adventures Tab content -->
+        <div id="P3" class="projectcontent">
+          <div class="ui left aligned container">
 
-      <!-- P2 Art Projects content -->
-      <div id="P2" class="projectcontent">
-        <div class="ui left aligned container">
-          <div class="ui message odd project">
-            <h3 class="project-title">Inktober 2019</h3>
-            <span class="project-meta">
-              <em><a href="https://inktober.com/"><img src="/images/ink.png" height="95" width="auto" align="top"></img></a></em>&nbsp;&nbsp;
-              <div class="ui label">July 2020</div>
-            </span>
+            <!-- split -->
 
-            <br>
+            <div class="ui message even project">
+              <h3 class="project-title">Chain.courses</h3>
+              <span class="project-meta">
+                <div class="ui label">7/2020</div>
+              </span>
 
-            <div class="description">
-              Inktober is an annual event that takes place every October. For 31 days, participants commit to creating one drawing per day, based on a set of prompts. My mom, daughter, and I used these prompts to guide our own drawing adventure during the summer of 2020, when we were all in isolation apart from each other.
+              <br>
+
+              <div class="description">
+                Chain.courses is an open-source Blockchain course which closes the gap between the innovation in the Blockchain industry and the existing educational resources about Blockchain </br>Gatsby, Gitbook, Blockchain.
+              </div>
+
+              <div class="ui fitted divider"></div>
+
+              <div class="project-links">
+                <a href="https://chain.courses">website</a>,
+                <a href="https://github.com/chain-courses/blockchain-course">repo</a>,
+                <a href="https://www.producthunt.com/posts/chain-courses">Product Hunt</a>
+              </div>
             </div>
 
-            <div class="ui fitted divider"></div>
+            <!-- split -->
 
-         
+
           </div>
+        </div>
+        <!-- end P3 Culinary Adventures content -->
 
+        <!-- start P4 Travel Tab content -->
+        <div id="P4" class="projectcontent">
+          <div class="ui left aligned container">
+            <!-- split -->
+
+            <div class="ui message odd project">
+              <h3 class="project-title">Denmark Study Abroad Experience | <a href="https://international.au.dk/education/admissions/summeruniversity/">AU Summer University</a></h3>
+              <span class="project-meta">
+                <em></em>&nbsp;&nbsp;
+                <div class="ui label">3/2019</div>
+              </span>
+
+              <br>
+
+              <div class="description">
+                Participated in the course: Game.Play.Design exploring Values in Games/Valuable Games </br>
+                The final project for the class was to create a hybrid digital/physical game, which was then presented to the public at Dokk1, the public library in Aarhus. Our game, <a href="https://sites.google.com/view/createacritter/home">Create-A-Critter</a>, aimed to engage children in a digital world created in Unity. Children were able to scan artwork they created and use it to customize the animals populating the world.
+
+              </div>
+
+              <div class="ui fitted divider"></div>
+
+              <div class="project-links">
+                <a href="https://sites.google.com/view/createacritter/home">Create-a-Critter</a>
+              </div>
+            </div>
+
+            <!-- end P4 Travel Tab content -->
+          </div>
         </div>
       </div>
-      <!-- end P2 Art Projects Tab content -->
 
-      <!-- start P3 Culinary Adventures Tab content -->
-      <div id="P3" class="projectcontent">
+
+      <!-- education tab content -->
+      <div id="Education" class="tabcontent">
+        <h2>Education</h2>
         <div class="ui left aligned container">
 
           <!-- split -->
 
           <div class="ui message even project">
-            <h3 class="project-title">Chain.courses</h3>
+            <h3 class="project-title">Paul G. Allen School of Computer Science & Engineering </br>University of Washington </h3>
             <span class="project-meta">
-              <div class="ui label">7/2020</div>
+              <div class="ui label">2016</div>&nbsp;&nbsp;
+              <em><img src="/images/uw.png" height="95" width="auto" align="top"></img></em>
             </span>
 
             <br>
 
             <div class="description">
-              Chain.courses is an open-source Blockchain course which closes the gap between the innovation in the Blockchain industry and the existing educational resources about Blockchain </br>Gatsby, Gitbook, Blockchain.
+              <b>Working towards a PhD in Computer Science</b><br>
+              It took me a while to discover what I really wanted to do. To anyone contemplating a </br>
+              career change or re-entry after time away, I say, "Go for it!" 
+              <p>
+                To date, my research has involved analyzing data from the <a href="https://scratch.mit.edu">Scratch</a> programming</br> platform to discover patterns in how children create, share, and learn from programming packages.</p>
+              </div>
+
             </div>
 
-            <div class="ui fitted divider"></div>
+            <!-- split -->
 
-            <div class="project-links">
-              <a href="https://chain.courses">website</a>,
-              <a href="https://github.com/chain-courses/blockchain-course">repo</a>,
-              <a href="https://www.producthunt.com/posts/chain-courses">Product Hunt</a>
-            </div>
-          </div>
+            <div class="ui message odd project">
+              <h3 class="project-title">Paul G. Allen School of Computer Science & Engineering </br>University of Washington</h3>
+              <span class="project-meta">
+                <div class="ui label">2016</div>&nbsp;&nbsp;
+                <em><img src="/images/uw.png" height="95" width="auto" align="top"></img></em>
+              </span>
 
-          <!-- split -->
+              <br>
 
-          
-        </div>
-      </div>
-      <!-- end P3 Culinary Adventures content -->
+              <div class="description">
+                <b>M.S. in Computer Science</b><br>
+                Specialization in Computer Science Education</br>
+                Completing the required 10 courses and Quals Project was challenging, but worth it!
+              </div>
 
-      <!-- start P4 Travel Tab content -->
-      <div id="P4" class="projectcontent">
-        <div class="ui left aligned container">
-          <!-- split -->
-
-          <div class="ui message odd project">
-            <h3 class="project-title">Denmark Study Abroad Experience | <a href="https://international.au.dk/education/admissions/summeruniversity/">AU Summer University</a></h3>
-            <span class="project-meta">
-              <em></em>&nbsp;&nbsp;
-              <div class="ui label">3/2019</div>
-            </span>
-
-            <br>
-
-            <div class="description">
-              Participated in the course: Game.Play.Design exploring Values in Games/Valuable Games </br>
-              
             </div>
 
-            <div class="ui fitted divider"></div>
+            <!-- split -->
 
-            <div class="project-links">
-              <a href="https://devpost.com/software/smart-ping-pong-paddle">devpost</a>
+            <div class="ui message even project">
+              <h3 class="project-title">University of Washington Department of Global Health</h3>
+              <span class="project-meta">
+                <div class="ui label">2016</div>&nbsp;&nbsp;
+                <em><img src="/images/uw.png" height="95" width="auto" align="top"></img></em>
+              </span>
+
+              <br>
+
+              <div class="description">
+                <b>M.S. in Pathobiology</b><br>
+                Conducted research on Kaposi's Sarcoma Herpesvirus (KSHV), involving analysis of RNA sequencing data of the viral genome. It was while working on this project that I discovered my love for computer science and programming.
+              </div>
+
             </div>
-          </div>
 
-      <!-- end P4 Travel Tab content -->
-    </div>
-  </div>
-  </div>
-  
+            <!-- split -->
 
-    <!-- education tab content -->
-    <div id="Education" class="tabcontent">
-      <h2>Education</h2>
-      <div class="ui left aligned container">
+            <div class="ui message odd project">
+              <h3 class="project-title">University of Massachusetts Medical School</h3>
+              <span class="project-meta">
+                <div class="ui label">1998</div>&nbsp;&nbsp;
+                <em><img src="/images/umms.png" height="95" width="auto" align="top"></img></em>
+              </span>
 
-        <!-- split -->
+              <br>
 
-        <div class="ui message even project">
-          <h3 class="project-title">Paul G. Allen School of Computer Science & Engineering </br>University of Washington </h3>
-          <span class="project-meta">
-            <div class="ui label">2016</div>&nbsp;&nbsp;
-            <em><img src="/images/uw.png" height="95" width="auto" align="top"></img></em>
-          </span>
+              <div class="description">
+                <b>M.D. with residency work in Family Medicine</b><br>
+                I started medical school with an interest in primary care and working with people from diverse backgrounds. While I ended up not practicing, my commitment to working with underserved populations remains strong.
+              </div>
 
-          <br>
+            </div>
 
-          <div class="description">
-          <b>Working towards a PhD in Computer Science</b><br>
-            It took me a while to discover what I really wanted to do. To anyone contemplating a </br>
-            career change or re-entry after time away,I say, "Go for it!" 
-            <p>
-            To date, my research has involved analyzing data from the <a href="https://scratch.mit.edu">Scratch</a> programming</br> platform to discover patterns in how children create, share, and learn from programming packages.</p>
-          </div>
+            <!-- split -->
 
-        </div>
+            <div class="ui message even project">
+              <h3 class="project-title">Massachusetts Institute of Technology</h3>
 
-              <!-- split -->
+              <span class="project-meta">
+                <div class="ui label">1990</div>&nbsp;&nbsp;
+                <em><img src="/images/mit.png" height="95" width="auto" align="top"></img></em>
+              </span>
 
-        <div class="ui message odd project">
-          <h3 class="project-title">Paul G. Allen School of Computer Science & Engineering </br>University of Washington</h3>
-          <span class="project-meta">
-            <div class="ui label">2016</div>&nbsp;&nbsp;
-            <em><img src="/images/uw.png" height="95" width="auto" align="top"></img></em>
-          </span>
+              <br>
 
-          <br>
+              <div class="description">
+                <b>B.S. in Materials Science & Engineering</b><br>
+                Concentrations in metallurgy and ceramics. Completed summer internships at Intel (working on wetting properties of solder joints) and at GE Aircraft Engines (studying abrasion resistance of different coating material formulations).
+              </div>
+            </div>
 
-          <div class="description">
-          <b>M.S. in Computer Science</b><br>
-            Specialization in Computer Science Education</br>
-            Completing the required 10 courses and Quals Project was challenging, but worth it!
-          </div>
 
-        </div>
+            <!-- split -->
 
-        <!-- split -->
 
-        <div class="ui message even project">
-          <h3 class="project-title">University of Washington Department of Global Health</h3>
-          <span class="project-meta">
-            <div class="ui label">2016</div>&nbsp;&nbsp;
-            <em><img src="/images/uw.png" height="95" width="auto" align="top"></img></em>
-          </span>
 
-          <br>
-
-          <div class="description">
-          <b>M.S. in Pathobiology</b><br>
-            Conducted research on Kaposi's Sarcoma Herpesvirus (KSHV), involving analysis of RNA sequencing data of the viral genome. It was while working on this project that I discovered my love for computer science and programming.
-          </div>
-
-        </div>
-
-        <!-- split -->
-
-        <div class="ui message odd project">
-          <h3 class="project-title">University of Massachusetts Medical School</h3>
-          <span class="project-meta">
-            <div class="ui label">1998</div>&nbsp;&nbsp;
-            <em><img src="/images/umms.png" height="95" width="auto" align="top"></img></em>
-          </span>
-
-          <br>
-
-          <div class="description">
-          <b>M.D. with residency work in Family Medicine</b><br>
-            I started medical school with an interest in primary care and working with people from diverse backgrounds. While I ended up not practicing, my commitment to working with underserved populations remains strong.
-          </div>
-
-        </div>
-
-        <!-- split -->
-
-        <div class="ui message even project">
-          <h3 class="project-title">Massachusetts Institute of Technology</h3>
-
-          <span class="project-meta">
-            <div class="ui label">1990</div>&nbsp;&nbsp;
-            <em><img src="/images/mit.png" height="95" width="auto" align="top"></img></em>
-          </span>
-
-          <br>
-
-          <div class="description">
-          <b>B.S. in Materials Science & Engineering</b><br>
-            Concentrations in metallurgy and ceramics. Completed summer internships at Intel (working on wetting properties of solder joints) and at GE Aircraft Engines (studying abrasion resistance of different coating material formulations).
-        </div>
-         
-          
-        <!-- split -->
-
-        
-
-      </div>
-    </div>
-    <!-- end bio tab content -->
-
-    <!-- work tab content -->
-    <div id="Work" class="tabcontent">
-      <h2>Work</h2>
-      <div class="ui left aligned container">
-
-      <!-- split -->
-
-        <div class="ui message odd project">
-          <h3 class="project-title">PayPal</h3>
-          <span class="project-meta">
-            <div class="ui label">01/2020-Current</div>&nbsp;&nbsp;
-            <em><img src="/images/pp.png" height="95" width="auto" align="top"></img></em>
-          </span>
-
-          <br>
-
-          <div class="description">
-            <b>Software Engineer II</b></br>
-            Java Frameworks</br>
-            Skills: Spring, Reactor, Kafka, Docker, GCP, Splunk
           </div>
         </div>
+        <!-- end bio tab content -->
 
-        <!-- split -->
+        <!-- work tab content -->
+        <div id="Work" class="tabcontent">
+          <h2>Work</h2>
+          <div class="ui left aligned container">
 
-        <div class="ui message even project">
-          <h3 class="project-title">Georgia Tech</h3>
-          <span class="project-meta">
-            <div class="ui label">Fall 2019</div>&nbsp;&nbsp;
-            <em><img src="/images/gt.png" height="95" width="auto" align="top"></img></em>
-          </span>
+            <!-- split -->
 
-          <br>
+            <div class="ui message even project">
+              <h3 class="project-title">University of Washington, CSE</h3>
+              <span class="project-meta">
+                <div class="ui label">2018-2019</div>&nbsp;&nbsp;
+                <em><img src="/images/uw.png" height="95" width="auto" align="top"></img></em>
+              </span>
 
-          <div class="description">
-            <b>Graduate Teaching Assistant</b></br>
-            Course: CS7637 Knowledge Based Artificial Intelligence</br>
-            Graduate teaching assistant answering questions on Piazza, </br>
-            and helping a group of 50 students with Artificial Intelligence projects</br>
-            Automated part of the grading process for student code
+              <br>
+
+              <div class="description">
+                <b>Graduate Teaching Assistant</b></br></br>
+                Primary Instructor for CSE 160: Data Programming</br></br>
+                This class is intended for non-majors who anticipate needing programming and data analysis skills. Students come from diverse programs and have little/no prior programming experience. The course introduces students to Python, using real-world data sets to teach concepts of computational thinking, problem-solving, data analysis, Python programming, control and data abstraction, file processing, and data visualization. Managed a class of ~100 students with the help of 6 TAs.</br></br>
+                Teaching Assistant for the following classes: </br>
+                <ul>
+                  <li>CSE 160: Data Programming</li>
+                  <li>CSE 190D: Current Topics (Game Design with Python)</li>
+                  <li>CSE 373: Data Structures & Algorithms</li>
+                  <li>CSE 415: Introduction to AI (for non-majors)</li>
+                  <li>CSE 473: Introduction to Artificial Intelligence</li>
+                </ul>
+                
+              </div>
+            </div>
+
+            <!-- split -->
+
+            <div class="ui message odd project">
+              <h3 class="project-title">CodeDay</h3>
+              <span class="project-meta">
+                <div class="ui label">2015-Current</div>&nbsp;&nbsp;
+                <em><img src="/images/codeday.png" height="95" width="auto" align="top"></img></em>
+              </span>
+
+              <br>
+
+              <div class="description">
+                <b>Program Manager</b>, CodeDay</br>
+                <b>Mentor</b>, CodeLabs</br>
+                <b>Program Manager</b>, Consultant to Microsoft Philanthropies</br>
+                Reached 4000+ students with Computer Science education</br>
+                Got 3000+ students to pursue further Computer Science Studies</br>
+                >70% of students from URM groups. 50% women, >60% Latinx/Black. >60% Title I students.
+              </div>
+            </div>
+
+            <!-- split -->
+
+
+
+            <!-- split -->
+
           </div>
         </div>
-
-        <!-- split -->
-
-        <div class="ui message odd project">
-          <h3 class="project-title">PayPal</h3>
-          <span class="project-meta">
-            <div class="ui label">Summer 2019</div>&nbsp;&nbsp;
-            <em><img src="/images/pp.png" height="95" width="auto" align="top"></img></em>
-          </span>
-
-          <br>
-
-          <div class="description">
-            <b>Software Engineer Intern</b></br>
-            Java Frameworks</br>
-            Skills: Spring, Reactor, Kafka, Docker, GCP, Splunk
-          </div>
-        </div>
-
-        <!-- split -->
-
-        <div class="ui message even project">
-          <h3 class="project-title">University of Washington, CSE</h3>
-          <span class="project-meta">
-            <div class="ui label">2018-2019</div>&nbsp;&nbsp;
-            <em><img src="/images/uw.png" height="95" width="auto" align="top"></img></em>
-          </span>
-
-          <br>
-
-          <div class="description">
-            <b>Graduate Research Assistant</b></br>
-            Academic Research with the Department of Computer Science & Engineering expanding an Autodesk Fusion 360 extension API for CAD of advanced tactile maps for the visually impaired.</br>
-            Automating conversion of OpenStreetMap data into SVGs and 3D geospatial models using Python.
-          </div>
-        </div>
-
-        <!-- split -->
-
-        <div class="ui message odd project">
-          <h3 class="project-title">CodeDay</h3>
-          <span class="project-meta">
-            <div class="ui label">2015-Current</div>&nbsp;&nbsp;
-            <em><img src="/images/codeday.png" height="95" width="auto" align="top"></img></em>
-          </span>
-
-          <br>
-
-          <div class="description">
-            <b>Program Manager</b>, CodeDay</br>
-            <b>Mentor</b>, CodeLabs</br>
-            <b>Program Manager</b>, Consultant to Microsoft Philanthropies</br>
-            Reached 4000+ students with Computer Science education</br>
-            Got 3000+ students to pursue further Computer Science Studies</br>
-            >70% of students from URM groups. 50% women, >60% Latinx/Black. >60% Title I students.
-          </div>
-        </div>
-
-        <!-- split -->
-
-        <div class="ui message even project">
-          <h3 class="project-title">Tezos Commons Foundation</h3>
-          <span class="project-meta">
-            <div class="ui label">2018-2019</div>&nbsp;&nbsp;
-            <em><img src="/images/tezos.png" height="95" width="auto" align="top"></img></em>
-          </span>
-
-          <br>
-
-          <div class="description">
-            <b>Seattle Lead Organizer</b></br>
-            Organized multiple tech talk and networking events for the Tezos Commons Foundation in downtown Seattle to network and learn about Blockchain and Tezos.
-          </div>
-        </div>
-
-        <!-- split -->
-
-        <div class="ui message odd project">
-          <h3 class="project-title">Practice Makes Perfect</h3>
-          <span class="project-meta">
-            <div class="ui label">Summer 2017</div>&nbsp;&nbsp;
-            <em><img src="/images/pmp.png" height="95" width="auto" align="top"></img></em>
-          </span>
-
-          <br>
-
-          <div class="description">
-            <b>Technology Innovation Intern</b></br>
-            Awarded grants from Entrepreneurship at Cornell and the Breitenbach Innovation Fund to work at an education startup regularly recognized by Forbes.</br>
-            Designed and implemented automation tool for client acquisition based off company wide design lifecycles.
-          </div>
-        </div>
-
-        <!-- split -->
-
-        <div class="ui message even project">
-          <h3 class="project-title">Winigent</h3>
-          <span class="project-meta">
-            <div class="ui label">Summer 2015</div>&nbsp;&nbsp;
-            <em><img src="/images/winigent.png" height="95" width="auto" align="top"></img></em>
-          </span>
-
-          <br>
-
-          <div class="description">
-            <b>Strategy Analyst Intern</b></br>
-            Performed market research on competitor firms</br>
-            Created a comprehensive digital marketing plan and corresponding digital assets
-          </div>
-        </div>
-
-  <!-- split -->
+        <!-- end work tab content -->
 
       </div>
-    </div>
-    <!-- end work tab content -->
+    </body>
 
-  </div>
-</body>
+    <!-- scripts -->
+    <script src="assets/lib/jquery.min.js"></script>
+    <script src="assets/lib/semantic.min.js"></script>
+    <script src="assets/tabs.js"></script>
+    <script src="assets/binary-clock.min.js"></script>
 
-<!-- scripts -->
-<script src="assets/lib/jquery.min.js"></script>
-<script src="assets/lib/semantic.min.js"></script>
-<script src="assets/tabs.js"></script>
-<script src="assets/binary-clock.min.js"></script>
-
-</html>
+    </html>
