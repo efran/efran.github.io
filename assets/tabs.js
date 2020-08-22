@@ -20,8 +20,8 @@ function openCity(evt, cityName) {
 }
 
 // Get the element with id="defaultOpen" and click on it
-var tabChooser = Math.floor(Math.random() * 3);
-var tabChooser2 = Math.floor(Math.random() * 3);
+var tabChooser = 0;
+var tabChooser2 = 1;
 document.getElementById("defaultOpen"+tabChooser).click();
 document.getElementById("defaultOpenProject"+tabChooser2).click();
 
